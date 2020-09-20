@@ -1,14 +1,14 @@
 {
-	"tags": null,
+	"tags": "modified",
 	"ambient": [
 		0,
 		0,
 		0
 	],
 	"diffuse": [
-		1,
-		1,
-		1
+		0.9019607843137255,
+		0.23529411764705882,
+		0.35294117647058826
 	],
 	"specular": [
 		1,
@@ -38,7 +38,7 @@
 	"useLightmapAsShadowmap": false,
 	"useReflectionFresnelFromSpecular": false,
 	"useGlossinessFromSpecularMapAlpha": false,
-	"maxSimultaneousLights": 4,
+	"maxSimultaneousLights": 32,
 	"invertNormalMapX": false,
 	"invertNormalMapY": false,
 	"twoSidedLighting": false,
@@ -48,7 +48,7 @@
 	"checkReadyOnEveryCall": false,
 	"checkReadyOnlyOnce": false,
 	"state": "",
-	"alpha": 1,
+	"alpha": 0.8125465376023827,
 	"backFaceCulling": true,
 	"sideOrientation": 1,
 	"alphaMode": 2,

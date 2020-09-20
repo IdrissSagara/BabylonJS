@@ -57,7 +57,7 @@ var MyScript = /** @class */ (function (_super) {
         var _this = this;
         // ...
         this.physicsImpostor = new core_1.PhysicsImpostor(this, core_1.PhysicsImpostor.BoxImpostor, {
-            mass: 1,
+            mass: 3,
         });
         this._scene.onPointerObservable.add(function (event) {
             if (event.type === core_1.PointerEventTypes.POINTERTAP) {

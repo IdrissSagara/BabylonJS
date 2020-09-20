@@ -1,0 +1,226 @@
+{
+	"tags": null,
+	"mode": 0,
+	"id": "04421fec-7eba-4f6b-9fd8-65c16f546be0",
+	"uniqueId": 512,
+	"name": "s",
+	"checkReadyOnEveryCall": false,
+	"checkReadyOnlyOnce": false,
+	"state": "",
+	"alpha": 1,
+	"backFaceCulling": true,
+	"sideOrientation": 1,
+	"alphaMode": 2,
+	"_needDepthPrePass": false,
+	"disableDepthWrite": false,
+	"disableColorWrite": false,
+	"forceDepthWrite": false,
+	"depthFunction": 0,
+	"separateCullingPass": false,
+	"fogEnabled": true,
+	"pointSize": 1,
+	"zOffset": 0,
+	"pointsCloud": false,
+	"fillMode": 0,
+	"editorData": null,
+	"customType": "BABYLON.NodeMaterial",
+	"outputNodes": [
+		64,
+		70
+	],
+	"blocks": [
+		{
+			"customType": "BABYLON.VertexOutputBlock",
+			"id": 64,
+			"name": "VertexOutput",
+			"comments": "",
+			"inputs": [
+				{
+					"name": "vector",
+					"inputName": "vector",
+					"targetBlockId": 65,
+					"targetConnectionName": "output"
+				}
+			],
+			"outputs": []
+		},
+		{
+			"customType": "BABYLON.TransformBlock",
+			"id": 65,
+			"name": "WorldPos * ViewProjectionTransform",
+			"comments": "",
+			"inputs": [
+				{
+					"name": "vector",
+					"inputName": "vector",
+					"targetBlockId": 66,
+					"targetConnectionName": "output"
+				},
+				{
+					"name": "transform",
+					"inputName": "transform",
+					"targetBlockId": 69,
+					"targetConnectionName": "output"
+				}
+			],
+			"outputs": [
+				{
+					"name": "output"
+				},
+				{
+					"name": "xyz"
+				}
+			],
+			"complementZ": 0,
+			"complementW": 1
+		},
+		{
+			"customType": "BABYLON.TransformBlock",
+			"id": 66,
+			"name": "WorldPos",
+			"comments": "",
+			"inputs": [
+				{
+					"name": "vector",
+					"inputName": "vector",
+					"targetBlockId": 67,
+					"targetConnectionName": "output"
+				},
+				{
+					"name": "transform",
+					"inputName": "transform",
+					"targetBlockId": 68,
+					"targetConnectionName": "output"
+				}
+			],
+			"outputs": [
+				{
+					"name": "output"
+				},
+				{
+					"name": "xyz"
+				}
+			],
+			"complementZ": 0,
+			"complementW": 1
+		},
+		{
+			"customType": "BABYLON.InputBlock",
+			"id": 67,
+			"name": "position",
+			"comments": "",
+			"inputs": [],
+			"outputs": [
+				{
+					"name": "output"
+				}
+			],
+			"type": 8,
+			"mode": 1,
+			"animationType": 0,
+			"visibleInInspector": false,
+			"min": 0,
+			"max": 0,
+			"isBoolean": false,
+			"matrixMode": 0,
+			"isConstant": false,
+			"groupInInspector": ""
+		},
+		{
+			"customType": "BABYLON.InputBlock",
+			"id": 68,
+			"name": "World",
+			"comments": "",
+			"inputs": [],
+			"outputs": [
+				{
+					"name": "output"
+				}
+			],
+			"type": 128,
+			"mode": 0,
+			"systemValue": 1,
+			"animationType": 0,
+			"visibleInInspector": false,
+			"min": 0,
+			"max": 0,
+			"isBoolean": false,
+			"matrixMode": 0,
+			"isConstant": false,
+			"groupInInspector": ""
+		},
+		{
+			"customType": "BABYLON.InputBlock",
+			"id": 69,
+			"name": "ViewProjection",
+			"comments": "",
+			"inputs": [],
+			"outputs": [
+				{
+					"name": "output"
+				}
+			],
+			"type": 128,
+			"mode": 0,
+			"systemValue": 4,
+			"animationType": 0,
+			"visibleInInspector": false,
+			"min": 0,
+			"max": 0,
+			"isBoolean": false,
+			"matrixMode": 0,
+			"isConstant": false,
+			"groupInInspector": ""
+		},
+		{
+			"customType": "BABYLON.FragmentOutputBlock",
+			"id": 70,
+			"name": "FragmentOutput",
+			"comments": "",
+			"inputs": [
+				{
+					"name": "rgba",
+					"inputName": "rgba",
+					"targetBlockId": 71,
+					"targetConnectionName": "output"
+				},
+				{
+					"name": "rgb"
+				},
+				{
+					"name": "a"
+				}
+			],
+			"outputs": []
+		},
+		{
+			"customType": "BABYLON.InputBlock",
+			"id": 71,
+			"name": "color",
+			"comments": "",
+			"inputs": [],
+			"outputs": [
+				{
+					"name": "output"
+				}
+			],
+			"type": 64,
+			"mode": 0,
+			"animationType": 0,
+			"visibleInInspector": false,
+			"min": 0,
+			"max": 0,
+			"isBoolean": false,
+			"matrixMode": 0,
+			"isConstant": false,
+			"groupInInspector": "",
+			"valueType": "BABYLON.Color4",
+			"value": [
+				0.8,
+				0.8,
+				0.8,
+				1
+			]
+		}
+	]
+}

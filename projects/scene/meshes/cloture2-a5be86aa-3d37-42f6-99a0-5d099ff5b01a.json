@@ -3,22 +3,24 @@
 		{
 			"name": "cloture2",
 			"id": "a5be86aa-3d37-42f6-99a0-5d099ff5b01a",
-			"uniqueId": 1575,
+			"uniqueId": 26,
 			"type": "Mesh",
+			"tags": "modified",
 			"position": [
-				12.32483196258545,
-				5.733490943908691,
-				5.892764091491699
+				13.416347148382663,
+				5.733490844303865,
+				5.944039046060052
 			],
-			"rotation": [
+			"rotationQuaternion": [
 				0,
-				0.006338186625387459,
-				0
+				0.9996669631952056,
+				0,
+				-0.025806332220758225
 			],
 			"scaling": [
-				1.7905579449060147,
+				1.7905579836728944,
 				15.086544036865234,
-				38.43462515644008
+				38.4346266657267
 			],
 			"pivotMatrix": {
 				"0": 1,
@@ -51,6 +53,10 @@
 			"isUnIndexed": false,
 			"geometryId": "ef6caa51-236d-4564-8530-153919192fa6",
 			"subMeshes": null,
+			"physicsMass": 0,
+			"physicsFriction": 0.2,
+			"physicsRestitution": 0,
+			"physicsImpostor": 2,
 			"metadata": {
 				"isPickable": true,
 				"script": {}

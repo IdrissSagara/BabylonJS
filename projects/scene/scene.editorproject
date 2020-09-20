@@ -11,8 +11,7 @@
 		"grass.jpg"
 	],
 	"cameras": [
-		"camera-05e93a47-ec25-41ad-a1df-16f279c32246.json",
-		"New Arc Rotate Camera-ea958d7b-55ab-41ef-9514-aaf6c003cde7.json"
+		"camera-05e93a47-ec25-41ad-a1df-16f279c32246.json"
 	],
 	"materials": [
 		{
@@ -29,8 +28,7 @@
 		},
 		{
 			"bindedMeshes": [
-				"6a927ea7-51d9-4248-9b80-4d34b53b386e",
-				"86a146ae-6a2d-4e24-a402-6922d9331e60"
+				"6a927ea7-51d9-4248-9b80-4d34b53b386e"
 			],
 			"json": "sky-b2346078-7465-4c63-8877-44b542584898.json",
 			"isMultiMaterial": false
@@ -51,7 +49,12 @@
 			"isMultiMaterial": false
 		},
 		{
-			"bindedMeshes": [],
+			"bindedMeshes": [
+				"63c9d5d3-53b5-4ee0-9a00-5ef9d4215f37",
+				"c1548f4c-786c-4d3e-b210-b0ef6eb2a952",
+				"5a58c729-8458-4bcf-b206-cd928816947f",
+				"b175148a-20f6-442c-8921-6717638446a0"
+			],
 			"json": "Branches_0-428cf8e4-4c7e-4fb4-84e7-8b7ce6685511.json",
 			"isMultiMaterial": false
 		},
@@ -113,14 +116,7 @@
 			"isMultiMaterial": false
 		},
 		{
-			"bindedMeshes": [
-				"5f9d92de-cb65-4eaf-8f15-0a23e0625486",
-				"682082c5-97b8-45cf-821b-5cb6a02ed30e",
-				"8432338d-036d-4d97-9303-2729d4f20f89",
-				"f806d57a-96c5-4d49-9af1-fad6339d83ac",
-				"fa14a893-db89-481a-b52e-5948e1bcaf9a",
-				"e67f1140-c1ee-4d21-99bf-b6cb636947cc"
-			],
+			"bindedMeshes": [],
 			"json": "38839134-2c52b475-582e-451e-b778-5ea448ca2c0c.json",
 			"isMultiMaterial": false
 		},
@@ -146,15 +142,22 @@
 		},
 		{
 			"bindedMeshes": [
-				"a6fb35c4-77a8-4c40-ad00-1c37bab3c5d6"
+				"b202988d-b9cb-4aa4-a357-56fe320e57c4",
+				"5e48dc65-5c34-42e2-a250-0abc50a5c4db",
+				"a018a5ae-e887-4d9b-a578-f16b6e40b227",
+				"2a803620-289a-4df5-a70b-8cd2603647e6"
 			],
 			"json": "tt-6055e136-6e8a-4d0f-b174-1140ef86abbc.json",
 			"isMultiMaterial": false
 		},
 		{
+			"bindedMeshes": [],
+			"json": "s-04421fec-7eba-4f6b-9fd8-65c16f546be0.json",
+			"isMultiMaterial": false
+		},
+		{
 			"bindedMeshes": [
-				"5d814e1e-069d-48dc-8ba0-a1d656f2453d",
-				"3ae31386-9078-42c1-a3ec-88e08812a527"
+				"5d814e1e-069d-48dc-8ba0-a1d656f2453d"
 			],
 			"json": "Fronds_2Branches_1FacingLeaves_4Branches_0Leaves_3-5e3913ff-9252-4609-9988-dd03807ddfec.json",
 			"isMultiMaterial": true
@@ -202,15 +205,16 @@
 		"arbre-2d53bc81-bdc2-4696-a79d-dc4acc0c8444.json",
 		"Tree1_LOD0-5d814e1e-069d-48dc-8ba0-a1d656f2453d.json",
 		"cloture3-a348b84b-b8de-457d-bdb9-5d516ab3981d.json",
-		"ball-3d5a8d74-1906-4135-8c80-95f93b84e59b.json",
+		"5-2a803620-289a-4df5-a70b-8cd2603647e6.json",
 		"cloture1-8a4d6863-78ab-43c7-ba77-c833ca8ae8bf.json",
-		"bloc1-86a146ae-6a2d-4e24-a402-6922d9331e60.json",
-		"bloc2-8432338d-036d-4d97-9303-2729d4f20f89.json",
-		"bloc3-f806d57a-96c5-4d49-9af1-fad6339d83ac.json",
-		"bloc4-fa14a893-db89-481a-b52e-5948e1bcaf9a.json",
-		"bloc5-a6fb35c4-77a8-4c40-ad00-1c37bab3c5d6.json",
-		"bloc6-e67f1140-c1ee-4d21-99bf-b6cb636947cc.json",
-		"cloture2-a5be86aa-3d37-42f6-99a0-5d099ff5b01a.json"
+		"5-b202988d-b9cb-4aa4-a357-56fe320e57c4.json",
+		"cloture2-a5be86aa-3d37-42f6-99a0-5d099ff5b01a.json",
+		"1-5e48dc65-5c34-42e2-a250-0abc50a5c4db.json",
+		"2-a018a5ae-e887-4d9b-a578-f16b6e40b227.json",
+		"3-63c9d5d3-53b5-4ee0-9a00-5ef9d4215f37.json",
+		"4-c1548f4c-786c-4d3e-b210-b0ef6eb2a952.json",
+		"3-5a58c729-8458-4bcf-b206-cd928816947f.json",
+		"4-b175148a-20f6-442c-8921-6717638446a0.json"
 	],
 	"transformNodes": [],
 	"particleSystems": [],
@@ -445,9 +449,9 @@
 	"project": {
 		"camera": {
 			"tags": "modified",
-			"alpha": 7.853021951784099,
-			"beta": 0.710528304142954,
-			"radius": 52.8738267333373,
+			"alpha": 7.75876305534503,
+			"beta": 0.9348316294132716,
+			"radius": 91.91804038304437,
 			"target": [
 				-0.00023213352952734567,
 				0.5203482327388514,
@@ -486,9 +490,9 @@
 			],
 			"speed": 2,
 			"position": [
-				0.03286358110880632,
-				40.599629096477074,
-				34.4856850637423
+				7.0303542158933405,
+				55.11542576685404,
+				73.61258126469093
 			],
 			"fov": 0.8,
 			"minZ": 1,

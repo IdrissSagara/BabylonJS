@@ -42,7 +42,7 @@ export default class MyScript extends Mesh {
 
         // ...
         this.physicsImpostor = new PhysicsImpostor(this, PhysicsImpostor.BoxImpostor, {
-            mass: 1,
+            mass: 3,
         });
         this._scene.onPointerObservable.add((event) => {
             if (event.type === PointerEventTypes.POINTERTAP) {

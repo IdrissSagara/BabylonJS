@@ -87,7 +87,7 @@ export default class MyScript extends Mesh {
      */
     public onUpdate(): void {
         // ...
-        this.moveWithCollisions(this.position);
+        //this.moveWithCollisions(this.position);
         
     }
 

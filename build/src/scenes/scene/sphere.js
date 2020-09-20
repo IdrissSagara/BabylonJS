@@ -98,7 +98,7 @@ var MyScript = /** @class */ (function (_super) {
      */
     MyScript.prototype.onUpdate = function () {
         // ...
-        this.moveWithCollisions(this.position);
+        //this.moveWithCollisions(this.position);
     };
     MyScript.prototype.applyStart = function () {
         // ...
